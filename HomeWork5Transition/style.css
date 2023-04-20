@@ -1,0 +1,77 @@
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 30em;
+  width: 96em;
+  background: gray;
+
+  justify-content: center;
+  text-align: center;
+}
+header .love {
+  margin-top: 3em;
+  color: white;
+  font-size: 2.5em;
+}
+header p {
+  color: white;
+  font-size: 1em;
+  margin: 0.1em 0em 0.1em 0em;
+  word-spacing: 0.1em;
+}
+header button {
+  width: 8.9em;
+  height: 2em;
+  background: rgba(65, 106, 120, 1);
+  margin-top: 2em;
+  border: gray;
+  border-radius: 2em 2em 2em 2em;
+  color: white;
+}
+header button:hover {
+  border: 1px solid black;
+}
+header .colors {
+  width: 50em;
+  height: 20em;
+  margin: auto;
+  margin-top: 3.5em;
+  display: flex;
+  justify-content: space-between;
+}
+i {
+  color: white;
+  font-size: 0.9em;
+}
+header .colors div {
+  height: 20em;
+  width: 15em;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: transform 0.5s ease;
+}
+header .colors div:hover {
+  transform: translateY(-20px);
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+header .colors .color h1 {
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+header .colors .color p {
+  margin: 0.1em 0.2em 0.1em 0.2em;
+  color: black;
+  font-size: 0.85em;
+  word-spacing: 0.1em;
+  width: 15em;
+  height: 7em;
+}
+header .colors .color i {
+  font-size: 4em;
+  margin-top: 0.9em;
+  color: gray;
+}
